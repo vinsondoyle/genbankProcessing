@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Genbank Processing : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Genbank Processing</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/vinsondoyle/genbankProcessing">View on GitHub</a>
+
+          <h1 id="project_title">Genbank Processing</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/vinsondoyle/genbankProcessing/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/vinsondoyle/genbankProcessing/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="genbank-processing" class="anchor" href="#genbank-processing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Genbank Processing</h1>
+
+<p>Many phylogenetic analyses build on previous work published by others. Sometimes we use data from this work that is held in repositories such as <a href="http://datadryad.org/">Dryad</a> or <a href="treebase.org">TreeBase</a>, but there are also times when we want the untrimmed and unaligned sequences and thus download them from sequence databases such as <a href="http://www.ncbi.nlm.nih.gov/genbank/">GenBank</a>. Authors are required, hopefully, to report the GenBank accession numbers somewhere in the manuscript. We can use those accession numbers, such as <a href="http://www.ncbi.nlm.nih.gov/nuccore/JX145197.1">JX145197</a>, to find the referenced sequences and view them in several formats (fasta, genbank [.gb], asn). Fasta format is the most directly usable for phylogenetic studies because alignment programs will take a multi-fasta file (single file containing multiple fasta formatted sequences) and align the bases as an assessment of homology. However, the metadata associated with these sequences is lost once you convert them to fasta format, such as the journal, authors, and gene features. You can always look them up again, but I find that it is convenient to have these files available in the directory where I keep my data files for a particular project.</p>
+
+<p>The scripts in this repository are meant to facilitate conversion from GenBank (.gb) flat file format to fasta and subsequently reformat the fasta files depending on your preferences. They are simple and probably duplicated elsewhere.</p>
+
+<p>Read the usage info at the beginning of each script for instructions. </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Genbank Processing maintained by <a href="https://github.com/vinsondoyle">vinsondoyle</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
