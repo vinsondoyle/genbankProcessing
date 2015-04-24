@@ -4,4 +4,7 @@ Many phylogenetic analyses build on previous work published by others. Sometimes
 
 The scripts in this repository are meant to facilitate conversion from GenBank (.gb) flat file format to fasta and subsequently reformat the fasta files depending on your preferences. They are simple and probably duplicated elsewhere.
 
-Read the usage info at the beginning of each script for instructions. 
+
+Detailed Usage to be added
+=====================
+Read the usage info at the beginning of each script for instructions.
