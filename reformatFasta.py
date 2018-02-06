@@ -13,7 +13,7 @@ with open(sys.argv[1], 'r') as f:
             genus = line.split()[1]
             species = line.split()[2]
             newFile.write(accession + "." + genus + "." + species + "\n")
-    else:
-        newFile.write(line)
+        else:
+            newFile.write(line)
 
 newFile.close()
