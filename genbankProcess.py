@@ -10,7 +10,6 @@
 # USAGE: python genbankProcess.py NameOfInputFile(genbank)
 # sequenceLengthCutoff "check"/"save" optional:NameOfOutputFile
 
-import Bio
 from Bio import SeqIO
 import sys
 
